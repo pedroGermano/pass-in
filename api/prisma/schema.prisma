@@ -16,3 +16,12 @@ model Event {
 
   @@map("events")
 }
+
+model Attendee {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("attendees")
+}
