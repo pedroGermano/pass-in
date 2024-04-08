@@ -15,3 +15,6 @@ Content-Type: application/json
   "name": "Pedro Germano",
   "email": "pedrogermano@gmail.com"
 }
+
+###
+GET http://localhost:3333/events/5280eb07-53fa-45dc-ac09-f429577e3aed
